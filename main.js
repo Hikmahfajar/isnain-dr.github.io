@@ -1,4 +1,4 @@
-const apiToken = '6d7207f8385582fa8a3bf83483dec2a9b1c7f64e';
+const apiToken = '45aa870c722ed27fd997be613a738cbf892fe867';
 const coordinates = {
 	uk: '51.1,-6.9,58.1,1.3',
 	europe: '38.0,-28.0,71.0,47.0',
