@@ -14,7 +14,7 @@ zoom: 2
 fetch("/get-covid.json")
 .then(response => response.json())
 .then(data => { 
-    const {places, reports} = data;
+    const {locations, latest} = data;
 
 reports
 .filter(report => !report.hide)
