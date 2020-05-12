@@ -7,8 +7,8 @@ mapboxgl.accessToken = mapbox_token;
 var map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/mapbox/dark-v0',
-zoom: 1.5,
-center:[0, 0]
+center: [0, 0],
+zoom: 2
 });
 
 fetch("/get-covid.json")
