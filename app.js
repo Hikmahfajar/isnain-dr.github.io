@@ -22,8 +22,6 @@ reports
     const {infected, placeId} = report;
     const curruntPlace = place.find(place => place.id == placeId);
     console.log(infected, curruntPlace);
-    new mapboxgl.Marker({})
-        .setLngLat([0, 0])
-        .addTo(map);
+    new mapboxgl.Marker({}).setLngLat([0, 0]).addTo(map);
     }); 
 });
