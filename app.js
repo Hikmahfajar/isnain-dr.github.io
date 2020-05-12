@@ -8,7 +8,7 @@ var map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/mapbox/dark-v0',
 zoom: 1.5,
-center:[0, 20]
+center:[0, 0]
 });
 
 fetch("/get-covid.json")
