@@ -17,20 +17,16 @@ Daftar Isi
 Pengantar
 ------------
 
-Project Akhir Tugas Web Geo terkait dengan visualisasi data Status Indek Kualitas Udara dengan Kasus COVID-19 Global dengan memanfaatkan MapBox library dan  JavaScript library lainya.
+Ini merupakan project akhir dari tugas Web Geo.  Project ini terkait dengan visualisasi dengan memanfaatkan MapBox library dan JavaScript library lainya untuk memvisualisasikan terkait dengan Status Indeks Kualitas Udara dengan Kasus COVID-19 Global.
 
 
 Data
 ------------
 
-Sumber Data COVID-19 dari Open COVID-19 Data Working Group COVID-19 Dataset
-https://github.com/beoutbreakprepared/nCoV2019/
-Ranges tangga data 14 Januari - 6 Mei 2020
+Sumber Dataset COVID-19 Global berasal dari [Open Data COVID-19 Data Working Group](https://github.com/beoutbreakprepared/nCoV2019/) , dengan range data yang digunakan dalam visualisasi dari 14 Januari – 6 Mei 2020. 
 
-Sumber Data Air Quality Index, The World Air Quality Index, Worldwide Environment Protection Agencies (EPA).
-https://aqicn.org/
-Map Web Service Real-time Air Quality Tile API
-Frekuensi update data per 1-3 jam setiap harinya.
+Sumber data indeks kualitas udara diperoleh dari [The World Air Quality Index (AQI) Project](https://aqicn.org/contribute/) Environmental Protection Agency (EPA) worldwide. Frekuensi data terupdate per 1-3 jam dari Web services Real-time Data & API Tile Map Air Quality Index (AQI) EPA.
+
 
 Pengolahan Data
 ------------
@@ -51,7 +47,7 @@ Live Demo
 Best Viewed with Microsoft Edge
 https://isnain-dr.github.io/
 ![](https://isnain-dr.github.io/img/webgeo_demo.gif)
-This is [an example](http://example.com/ "Title") 
+
 Issue
 -----
 
