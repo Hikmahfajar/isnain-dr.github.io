@@ -5,10 +5,10 @@ Daftar Isi
 -----------------
 
 * [Pengantar](#pengantar)
-* [Sumber Data](#Sumber Data)
-* [Pengolahan Data] (#Pengolahan Data)
+* [Sumber Data](#sumber-data)
+* [Pengolahan Data](#pengolahan-data)
 * [Library](#library)
-* [Issue] (#issue)
+* [Issue](#issue)
 * [Acknowledgments](#acknowledgments)
 
 
