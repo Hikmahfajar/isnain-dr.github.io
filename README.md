@@ -30,7 +30,7 @@ Sumber data indeks kualitas udara diperoleh dari [The World Air Quality Index (A
 
 Pengolahan Data
 ------------
-Pengolahan data pengubahan struktur JSON ke GeoJSON dilakukan secara otomatis dengan menggunakan fungsi javascript yang ada pada bagian app.js, pengolahan tersebut dengan tujuan agar dapat ditampilkan langsung pada map (MapBox).
+Pengolahan data dilakukan pada pengubahan struktur JSON ke GeoJSON format. Proses ini dilakukan secara otomatis dengan menggunakan fungsi javascript pada bagian app.js, pengolahan tersebut dengan tujuan agar data JSON dapat ditampilkan langsung pada map (MapBox).
 
 Library
 -----
