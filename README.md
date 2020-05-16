@@ -17,7 +17,7 @@ Daftar Isi
 Pengantar
 ------------
 
-Ini merupakan project akhir dari tugas Web Geo.  Project ini terkait dengan visualisasi dengan memanfaatkan MapBox library dan JavaScript library lainya untuk memvisualisasikan terkait dengan Status Indeks Kualitas Udara dengan Kasus COVID-19 Global.
+Ini merupakan project akhir dari tugas Web Geo.  Project ini terkait dengan visualisasi dengan memanfaatkan MapBox library dan beberapa JavaScript library lainnya untuk memvisualisasikan terkait dengan Status Indeks Kualitas Udara dengan Kasus COVID-19 Global.
 
 
 Data
@@ -30,8 +30,7 @@ Sumber data indeks kualitas udara diperoleh dari [The World Air Quality Index (A
 
 Pengolahan Data
 ------------
-Pengolahan data struktur JSON ke GeoJSON supaya dapat tampil langsung pada map (MapBox) dilakukan secara otomatis dengan menggunakan fungsi javascript yang ada pada bagian app.js
-
+Pengolahan data pengubahan struktur JSON ke GeoJSON dilakukan secara otomatis dengan menggunakan fungsi javascript yang ada pada bagian app.js, pengolahan tersebut dengan tujuan agar dapat ditampilkan langsung pada map (MapBox).
 
 Library
 -----
@@ -50,18 +49,17 @@ https://isnain-dr.github.io/
 
 Issue
 -----
-
+Terkait Cross-Origin resource data
 Jika data tidak terload ada kemungkinan issue terkait CROS, Origin Policy disallows reading the remote resource, atau perubahan policy pengaturan izin reading data, hanya boleh dalam satu domain yang sama dengan resource service. 
-Ajax Cross-Origin Request Blocked
 
 Acknowledgments
 ---------------
 
-MapBox https://www.mapbox.com/
+[MapBox](https://www.mapbox.com/)
 
-HealthMap https://www.healthmap.org/en/
+[HealthMap](https://www.healthmap.org/en/)
 
-Data Working Group COVID-19 https://github.com/beoutbreakprepared/nCoV2019/tree/master/latest_data
+[Open Data Working Group COVID-19 Global](https://github.com/beoutbreakprepared/nCoV2019/)
 
-EPA World Air Quality Wolrd Project https://aqicn.org/
+[The World Air Quality Project EPA Worldwide](https://aqicn.org/contact)
 
