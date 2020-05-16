@@ -7,7 +7,7 @@ Table of contents
 * [Introduction](#introduction)
 * [Data](#data)
 * [Library](#library)
-//////* [Acknowledgments](#acknowledgments)
+* [Acknowledgments](#acknowledgments)
 
 
 Pengantar
@@ -30,7 +30,9 @@ Library
 -----
 
 mapbox-gl-js
+
 fetch.min.js
+
 bluebird.min.js
 
 Acknowledgments
