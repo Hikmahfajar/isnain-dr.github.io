@@ -34,7 +34,7 @@ Frekuensi update data per 1-3 jam setiap harinya.
 
 Pengolahan Data
 ------------
-Pengolahan data struktur JSON ke GeoJSON supaya dapat tampil langsung pada map (MapBox) dilakukan secara terotomasi dengan menggunakan fungsi javascript yang ada pada bagian app.js
+Pengolahan data struktur JSON ke GeoJSON supaya dapat tampil langsung pada map (MapBox) dilakukan secara otomatis dengan menggunakan fungsi javascript yang ada pada bagian app.js
 
 
 Library
@@ -50,6 +50,7 @@ Live Demo
 ---------------
 Best Viewed with Microsoft Edge
 https://isnain-dr.github.io/
+![](https://isnain-dr.github.io/img/webgeo_demo.gif)
 
 Issue
 -----
