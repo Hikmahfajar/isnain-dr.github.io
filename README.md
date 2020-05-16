@@ -1,7 +1,7 @@
 READMINE: WebGeo
 =================================================
 
-Table of contents
+Daftar Isi
 -----------------
 
 * [Introduction](#introduction)
@@ -39,6 +39,9 @@ Acknowledgments
 ---------------
 
 MapBox https://www.mapbox.com/
+
 HealtMap https://www.healthmap.org/en/
+
 Data Working Group COVID-19 https://github.com/beoutbreakprepared/nCoV2019/tree/master/latest_data
 
+EPA World Air Quality Wolrd Project https://aqicn.org/
