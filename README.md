@@ -5,8 +5,8 @@ Daftar Isi
 -----------------
 
 * [Pengantar](#pengantar)
-* [Data](#data)
-* [Olah Data] (#Olah Data)
+* [Sumber Data](#Sumber Data)
+* [Pengolahan Data] (#Pengolahan Data)
 * [Library](#library)
 * [Issue] (#issue)
 * [Acknowledgments](#acknowledgments)
@@ -45,12 +45,18 @@ fetch.min.js
 
 bluebird.min.js
 
+Issue
+-----
+
+Jika data tidak terload ada kemungkinan issue terkait Origin Policy disallows reading the remote resource, atau perubahan policy pengaturan izin reading data hanya dalam satu domain yang sama. 
+Ajax Cross-Origin Request Blocked
+
 Acknowledgments
 ---------------
 
 MapBox https://www.mapbox.com/
 
-HealtMap https://www.healthmap.org/en/
+HealthMap https://www.healthmap.org/en/
 
 Data Working Group COVID-19 https://github.com/beoutbreakprepared/nCoV2019/tree/master/latest_data
 
