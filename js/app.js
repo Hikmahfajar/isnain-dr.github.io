@@ -15,13 +15,14 @@ const COLOR_MAP = [
   ['cornflowerblue', 'New'],
 ]
 
+// Konstanta simbol warna indeks kualitas udara
 const AQI_MAP = [
-  ['#009966', '0-50 Good'],
-  ['#ffde33', '51–100 Moderet'],
-  ['#ff9933', '101–150 Sensitive'],
-  ['#cc0033', '151–200 Unhealty'],
-  ['#660099', '201–300 Very Unhealty'],
-  ['#7e0023', '200+ Hazardous'],
+  ['#009966', '0-50 Baik'],
+  ['#ffde33', '51–100 Sedang'],
+  ['#ff9933', '101–150 Tidak Sehat untuk Grup Sensitif'],
+  ['#cc0033', '151–200 Tidak Sehat'],
+  ['#660099', '201–300 Sangat Tidak Sehat'],
+  ['#7e0023', '200+ Berbahaya'],
 ]
 
 // Konstanta runtime 
@@ -89,7 +90,7 @@ function oneDayBefore(dateString) {
 function fetchDailySlice(dateString) {
   dateString = dateString || 'latest';
 
-  let url = './harian/' + dateString.replace(/-/g, '.') + '.json';
+  let url = './data/' + dateString.replace(/-/g, '.') + '.json';
   if (dateString == 'latest') {
     url += '?nocache=' + timestamp;
   }
@@ -135,7 +136,7 @@ function onAllDailySlicesFetched() {
 }
 
 // Load data lokasi (location data) (nama geografis dari latitude dan longitude).
-fetch('location_info.txt')
+fetch('./data/location_info.txt')
   .then(function(response) { return response.text(); })
   .then(function(responseText) {
     let lines = responseText.split('\n');
@@ -153,8 +154,8 @@ fetch('latestCounts.json?nocache=' + timestamp)
     document.getElementById('last-updated-date').innerText = jsonData[0].date;
   });
 
-// Membuat list lokasi dan jumlah
-fetch('jhu.json?nocache=' + timestamp)
+// Membuat list lokasi dan jumlah kasus terkonfiirmasi COVID-19
+fetch('./data/jhu.json?nocache=' + timestamp)
   .then(function(response) { return response.json(); })
   .then(function(jsonData) {
     let obj = jsonData.features;
@@ -440,7 +441,7 @@ function initMap() {
       let lng = parseFloat(coordinatesString[1]);
       // Negara, provinsi, kota
       let location = location_info[geo_id].split(',');
-      // Menhapus string kosong
+      // Menghapus string kosong
       location = location.filter(function (el) { return el != ''; });
       let description =
         '<h3 class="popup-header">' + location.join(', ') + '</h3>' +
@@ -451,7 +452,7 @@ function initMap() {
         lng += e.lngLat.lng > lng ? 360 : -360;
       }
 
-      // Isi popup dan atur koordinatnya
+      // Isi popup dan untuk mengatur koordinatnya
       // berdasarkan fitur yang ditemukan.
       popup
         .setLngLat([lng, lat])
