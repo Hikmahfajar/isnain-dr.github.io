@@ -5,7 +5,7 @@ Daftar Isi
 -----------------
 
 * [Pengantar](#pengantar)
-* [Sumber Data](#sumber-data)
+* [Data](#sumber-data)
 * [Pengolahan Data](#pengolahan-data)
 * [Library](#library)
 * [Live Demo](#live-demo)
