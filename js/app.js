@@ -12,7 +12,7 @@ const COLOR_MAP = [
   ['#d34d60', '101–500', 500],
   ['#fb9533', '501–2000', 2000],
   ['#edf91c', '> 2000'],
-  ['cornflowerblue', 'New'],
+  ['cornflowerblue', 'Kasus Baru'],
 ]
 
 // Konstanta simbol warna indeks kualitas udara
@@ -147,7 +147,7 @@ fetch('./data/location_info.txt')
   });
 
 // Muat jumlah terbaru dari scraper
-fetch('latestCounts.json?nocache=' + timestamp)
+fetch('./data/latestCounts.json?nocache=' + timestamp)
   .then(function(response) { return response.json(); })
   .then(function(jsonData) {
     document.getElementById('total-cases').innerText = jsonData[0].caseCount;
